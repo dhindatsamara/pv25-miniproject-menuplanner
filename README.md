@@ -30,14 +30,15 @@
 ![3. Surprise Me!](tampilan%20UI/surprise%20me!.png)
 4. Reset Form
 ![4. Reset Form](tampilan%20UI/reset.png)
-5. Validasi Input
-![5. Validasi Input Harus Diisi Semua](tampilan%20UI/input%20harus%20diisi%semua.png)
+5. Validasi Input Harus Diisi Semua
+![5. Validasi Input Harus Diisi Semua](tampilan%20UI/input%20harus%20diisi%20semua.png)
+6. Validasi Input Maksimal Pilih Dua Rasa
 ![6. Validasi Input Maksimal Pilih Dua Rasa](tampilan%20UI/maksimal%20pilih%20dua%20rasa.png)
-6. Hasil Generate Menu
+7. Hasil Generate Menu
 ![7. Hasil Generate Menu](tampilan%20UI/rekomendasi%20lengkap.png)
-7. Catatan Edukatif
+8. Catatan Edukatif
 ![8. Catatan Edukatif](tampilan%20UI/peringatan%20kesehatan.png)
-8. Rekomendasi Alternatif
+9. Rekomendasi Alternatif
 ![9. Rekomendasi Alternatif](tampilan%20UI/rekomendasi%20alternatif.png)
 
 
