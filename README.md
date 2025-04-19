@@ -21,7 +21,7 @@
 
 ---
 
-## 📸 Tampilan Aplikasi
+## Tampilan Aplikasi
 1. Tampilan Awal
 ![1. Tampilan Awal](tampilan%20UI/tampilan%20awal.png)
 2. Halaman Utama
@@ -31,9 +31,7 @@
 4. Reset Form
 ![4. Reset Form](tampilan%20UI/reset.png)
 5. Validasi Input
-- Input Harus Diisi Semua
 ![5. Validasi Input Harus Diisi Semua](tampilan%20UI/input%20harus%20diisi%semua.png)
-- Maksimal Pilih Dua Rasa
 ![6. Validasi Input Maksimal Pilih Dua Rasa](tampilan%20UI/maksimal%20pilih%20dua%20rasa.png)
 6. Hasil Generate Menu
 ![7. Hasil Generate Menu](tampilan%20UI/rekomendasi%20lengkap.png)
