@@ -1,29 +1,23 @@
-# 🧠 MenuPlanner+
+# MenuPlanner+
 
 **MenuPlanner+** adalah aplikasi rekomendasi menu makanan berbasis **PyQt5** yang dirancang untuk memberikan rekomendasi makanan berdasarkan preferensi pengguna, seperti **preferensi rasa**, **waktu makan**, **tujuan konsumsi**, serta **mood harian** pengguna. Aplikasi ini menggabungkan interaksi GUI yang menarik dengan logika pemrosesan menu yang edukatif dan bermanfaat.
 
 ---
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
-✅ **Rekomendasi menu berdasarkan:**  
+**Rekomendasi menu berdasarkan:**  
 - Mood
 - Preferensi rasa (maks. 2 rasa)
 - Waktu makan
 - Tujuan konsumsi (Diet, Hemat, Fancy, Random)
 - Level kepraktisan (1: Masak Ribet, 2: Masak Praktis, 3: Instan Praktis/Beli)
 
-✅ **Mode Surprise Menu** 
+**Mode Surprise Menu** 
 - User akan diberikan rekomendasi makanan secara random tanpa perlu meng-inputkan data di form sama sekali.
 
-✅ **Pesan motivasi sesuai mood** 
+**Pesan motivasi sesuai mood** 
 - User akan diberi pesan motivasi harian sesuai mood yang di-inputkan ketika menekan tombol Generate Menu atau Surprise Me.
-
-🧠 **Logika Rekomendasi**
-1. Kombinasi 2 rasa + level kepraktisan
-2. Rasa tunggal + level
-3. Fallback jika tidak tersedia
-4. Catatan edukatif ditampilkan bila rasa tidak cocok untuk waktu makan
 
 ---
 
