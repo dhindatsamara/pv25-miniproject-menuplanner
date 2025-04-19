@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>7</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MenuPlanner+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>781</width>
+      <height>771</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="landing_page">
+     <widget class="QLabel" name="MenuPlanner">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>100</y>
+        <width>401</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Poppins Medium</family>
+        <pointsize>32</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>MenuPlanner+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="desc">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>160</y>
+        <width>481</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Centaur</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>From Cravings to Planning — Effortlessly!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="gambar">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>240</y>
+        <width>271</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>C:/Users/LENOVO/Downloads/c2992488-26c3-4792-af9c-27521ea7f4a0-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="start">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>540</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Poppins</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nama">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>720</y>
+        <width>361</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Dhinda Tsamara Shalsabilla | NIM: F1D022005</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="MenuPlanner_3">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>20</y>
+        <width>510</width>
+        <height>76</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Poppins Medium</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>🍽️ MenuPlanner+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>110</y>
+        <width>581</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_2">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_16">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>🧑🏻👩🏻 Nama:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="user_2">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>😄 Mood Hari Ini:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <widget class="QComboBox" name="mood_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <item>
+            <property name="text">
+             <string>- Pilih -</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Senang</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Marah</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Bosan</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Sedih</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_14">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>🌶 Preferensi Rasa:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <widget class="QCheckBox" name="manis_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Manis</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="asin_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Asin/Gurih</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="pedas_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Pedas</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="asam_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Asam</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>🕒 Waktu Makan:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QRadioButton" name="sarapan_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Sarapan</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="siang_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Makan Siang</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="malam_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Makan Malam</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="snack_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Snack</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="all_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>All</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>🍳 Level Kepraktisan:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <item>
+          <widget class="QSlider" name="level_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="val_level_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="7" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_16">
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>*1 = Masak ribet</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_24">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>2 = Masak praktis</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>3 = Instant praktis/beli</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_21">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>🎯 Tujuan Konsumsi:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_17">
+         <item>
+          <widget class="QComboBox" name="tujuan_2">
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <item>
+            <property name="text">
+             <string>- Pilih -</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Diet</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Hemat</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Fancy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Random</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="9" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <item>
+          <widget class="QPushButton" name="generate_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Generate Menu!</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="surprise_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Surprise Me!</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_22">
+         <property name="font">
+          <font>
+           <family>Inter 18pt</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>🧾 Menu Hari Ini:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <widget class="QTextBrowser" name="result">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>Poppins</family>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="11" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="reset">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>Inter 18pt</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Reset</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>740</y>
+        <width>551</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>🍖♨️🔥🥩🥓🍳</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="main_page"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
